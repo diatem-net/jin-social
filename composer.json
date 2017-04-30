@@ -1,0 +1,33 @@
+{
+    "name": "diatem-net/jin-social",
+    "description": "Utility classes to work with social networks.",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Loïc Gérard",
+            "email": "lgerard@diatem.net"
+        },
+        {
+            "name": "Samuel Marchal",
+            "email": "smarchal@diatem.net"
+        },
+        {
+            "name": "Jean-Luc Fritz",
+            "email": "jlfritz@diatem.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "abraham/twitteroauth": ">=0.7.0",
+        "facebook/php-sdk-v4": ">=4.0.0",
+        "jasig/phpcas": "~1.3.2",
+        "diatem-net/jin-com": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jin2\\": "src/"
+        }
+    }
+}
