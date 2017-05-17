@@ -27,27 +27,27 @@ class Facebook
   /**
    * @var string  Facebook CLIENT_KEY
    */
-  private $client_id;
+  protected $client_id;
 
   /**
    * @var string  Facebook CLIENT_SECRET
    */
-  private $client_secret;
+  protected $client_secret;
 
   /**
    * @var string  Facebook ACCESS TOKEN
    */
-  private $access_token;
+  protected $access_token;
 
   /**
    * @var boolean Debug mode
    */
-  private $debug_mode;
+  protected $debug_mode;
 
   /**
    * @var FacebookSession Instance de la classe FacebookSession
    */
-  private $session;
+  protected $session;
 
   /**
    * Constructeur

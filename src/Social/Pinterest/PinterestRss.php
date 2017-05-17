@@ -16,7 +16,7 @@ class PinterestRSS
   /**
    * @var boolean Debug mode
    */
-  private $debug_mode;
+  protected $debug_mode;
 
   /**
    * Constructeur

@@ -20,18 +20,18 @@ class Instagram
   /**
    * @var string  Instagram CLIENT_ID
    */
-  private $client_id;
+  protected $client_id;
 
   /**
    * @var string  Instagram ACCESS_TOKEN
    */
-  private $access_token;
+  protected $access_token;
 
   /**
    *
    * @var boolean Debug mode
    */
-  private $debug_mode;
+  protected $debug_mode;
 
   /**
    * url de l'API Instagram

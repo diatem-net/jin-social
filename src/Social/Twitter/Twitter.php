@@ -20,33 +20,33 @@ class Twitter
   /**
    * @var string  Twitter CONSUMER_KEY
    */
-  private $consumer_key;
+  protected $consumer_key;
 
   /**
    * @var string  Twitter CONSUMER_SECRET
    */
-  private $consumer_secret;
+  protected $consumer_secret;
 
   /**
    * @var string  Twitter ACCESS TOKEN
    */
-  private $access_token;
+  protected $access_token;
 
   /**
    * @var string  Twitter ACCESS TOKEN SECRET
    */
-  private $access_token_secret;
+  protected $access_token_secret;
 
   /**
    * @var TwitterOAuth Instance de la classe TwitterOAuth
    */
-  private $api;
+  protected $api;
 
   /**
    *
    * @var boolean Debug mode
    */
-  private $debug_mode;
+  protected $debug_mode;
 
   /**
    * Constructeur

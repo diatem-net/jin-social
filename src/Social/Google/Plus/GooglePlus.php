@@ -18,12 +18,12 @@ class GooglePlus
   /**
    * @var string Google+ SERVER_KEY
    */
-  private $server_key;
+  protected $server_key;
 
   /**
    * @var boolean Debug mode
    */
-  private $debug_mode;
+  protected $debug_mode;
 
   /**
    * url de l'API Google+

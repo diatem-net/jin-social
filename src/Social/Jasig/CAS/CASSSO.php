@@ -17,13 +17,13 @@ use \phpCAS as PhpCAS;
 class CASSSO
 {
 
-  private static $host;
-  private static $port;
-  private static $context;
-  private static $ssl;
-  private static $debugging;
-  private static $serviceId;
-  private static $initialized;
+  protected static $host;
+  protected static $port;
+  protected static $context;
+  protected static $ssl;
+  protected static $debugging;
+  protected static $serviceId;
+  protected static $initialized;
 
   /**
    * Configure l'accès au serveur CAS. Nécessaire pour que les méthodes de connexion puissent fonctionner correctement
@@ -146,7 +146,7 @@ class CASSSO
    *
    * @return string
    */
-  private static function getBaseUrl()
+  protected static function getBaseUrl()
   {
     $baseUrl = 'https://';
     if (!self::$ssl) {
@@ -161,7 +161,7 @@ class CASSSO
    *
    * @throws \Exception
    */
-  private static function checkInit()
+  protected static function checkInit()
   {
     if (!self::$initialized) {
       throw new \Exception('Vous devez appeler CASSSO::configure(...) avant toute autre opération d\'identification');
