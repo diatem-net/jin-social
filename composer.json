@@ -2,7 +2,7 @@
     "name": "diatem-net/jin-social",
     "description": "Utility classes to work with social networks.",
     "type": "library",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Loïc Gérard",
